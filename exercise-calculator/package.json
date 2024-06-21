@@ -1,0 +1,31 @@
+{
+  "name": "exercise-calculator",
+  "version": "1.0.0",
+  "description": "Exercises 9.1-9.7 for Full Stack Open - Part 9",
+  "main": "index.js",
+  "scripts": {
+    "ts-node": "ts-node",
+    "calculateBmi": "ts-node bmiCalculator.ts",
+    "calculateExercises": "ts-node exerciseCalculator.ts",
+    "start": "ts-node index.ts",
+    "dev": "ts-node-dev index.ts",
+    "lint": "eslint --ext .ts ."
+  },
+  "author": "Ricardo Soto",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/lodash": "^4.14.202",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.11.17",
+    "@types/react": "^18.2.55",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
