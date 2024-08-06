@@ -11,4 +11,8 @@ router.get('/', (_req, res) => {
     res.send('create patients');
 });
 
+router.post('/', (req, res) => {
+    const { name, dateOfBirth, ssn, gender, occupation } = req.body;
+});
+
 export default router;
